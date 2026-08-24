@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a practical improvement for FreqMapper.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. FreqMapper is built for safe, privacy-aware Meshtastic coverage mapping. Do not include channel keys, PSKs, or private locations.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the wardriving, mapping, watcher, or radio workflow that is difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposed solution
+      description: Explain how you think it should work. Screenshots or a rough sketch are welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who would benefit?
+      options:
+        - Wardrivers
+        - Watcher operators
+        - Region administrators
+        - Public map visitors
+        - Everyone
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or additional context
+      description: Optional. Tell us about other approaches you considered.
