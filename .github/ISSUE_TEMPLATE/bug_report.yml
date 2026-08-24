@@ -1,0 +1,43 @@
+name: Bug report
+description: Tell us what broke so we can reproduce and fix it.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve FreqMapper. Please do not include channel keys, PSKs, installation tokens, or another person's precise location.
+  - type: input
+    id: version
+    attributes:
+      label: App or site version
+      description: Include the Android app version, browser, or website build if known.
+      placeholder: e.g. Android 0.1.0 / Chrome 128
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did this happen?
+      options:
+        - Android app
+        - Public map
+        - Admin console
+        - Meshtastic radio connection
+        - Wardrive session
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and how can we reproduce it?
+      placeholder: Tell us what you expected, what happened instead, and the steps that led to it.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Optional screenshots or logs
+      description: Remove private messages, keys, precise home locations, and personal identifiers first.
