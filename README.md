@@ -1,5 +1,23 @@
 # FreqMapper
 
+**This is FreqMapper's public feedback repository.** You are welcome to read, ask questions, report bugs, suggest features, and follow public discussions here. To use FreqMapper, start with the website and mobile apps; there is nothing you need to clone or build from this repository.
+
+## Report a bug or request a feature
+
+**[Report a bug](https://github.com/Littleaton/FreqMapper-Feedback/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/Littleaton/FreqMapper-Feedback/issues/new?template=feature_request.yml) · [Browse existing issues](https://github.com/Littleaton/FreqMapper-Feedback/issues)**
+
+[Search existing issues](https://github.com/Littleaton/FreqMapper-Feedback/issues) first, then [choose a report form](https://github.com/Littleaton/FreqMapper-Feedback/issues/new/choose).
+
+For a bug, include the steps you took, what you expected, what happened instead, exact app version/build, phone and OS or browser, relevant radio model/firmware, approximate time, and general region. Sanitized screenshots can help.
+
+For a feature, explain the mapping or radio problem you want to solve, who it affects, and any proposed approach.
+
+You can also open **Settings → Help & about → Report a bug / Request a feature** in the app. Choose **Public summary** when a sanitized description may be published, or **Private report** for private-only support. The [Support guide](https://help.freqmapper.net/support/) explains replies and support activity.
+
+**Direct GitHub issues and comments are public.** Never post enrollment codes, channel keys or QR codes, passwords, tokens, MQTT credentials, private messages, Bluetooth addresses, exact home/private locations, or unreviewed diagnostic files. Read [Privacy and reporting](PRIVACY_AND_REPORTING.md) before sharing attachments.
+
+## About FreqMapper
+
 **Find out where your Meshtastic mesh actually reaches—and help fill in the map.**
 
 FreqMapper is a community service for measuring and sharing real-world **Meshtastic coverage**. The Android and iPhone apps connect to your radio, use your phone's GPS, and collect evidence while you travel or test a single spot. The website brings that evidence together into regional maps that anyone can explore.
@@ -9,8 +27,6 @@ It is for the person looking at a trailhead, back road, neighborhood, or valley 
 [Explore the map](https://freqmapper.net/) · [Get started](https://help.freqmapper.net/getting-started/) · [Android](https://play.google.com/store/apps/details?id=net.freqmapper.app) · [iPhone](https://apps.apple.com/app/id6806389954) · [Join Discord](https://discord.gg/mccXD4qvgD)
 
 ![A FreqMapper trip: a phone, a radio, and independently observed coverage across a valley.](https://help.freqmapper.net/assets/freqmapper-wardriving-v1.png)
-
-**This is FreqMapper's public feedback repository.** You are welcome to read, ask questions, report bugs, suggest features, and follow public discussions here. To use FreqMapper, start with the website and mobile apps; there is nothing you need to clone or build from this repository.
 
 ## Find what you need
 
@@ -31,6 +47,8 @@ It is for the person looking at a trailhead, back road, neighborhood, or valley 
 
 ### On this page
 
+- [Report a bug or request a feature](#report-a-bug-or-request-a-feature)
+- [About FreqMapper](#about-freqmapper)
 - [What FreqMapper is and why it exists](#what-freqmapper-is-and-why-it-exists)
 - [What you can do](#what-you-can-do)
 - [How the coverage evidence works](#how-the-coverage-evidence-works)
@@ -366,18 +384,6 @@ The map is not a guarantee of communication or an emergency communications servi
 - Start with [Troubleshooting](https://help.freqmapper.net/troubleshooting/) and the [FAQ](https://help.freqmapper.net/frequently-asked-questions/).
 - Ask setup and community questions in [FreqMapper Discord](https://discord.gg/mccXD4qvgD).
 - For private support, account, privacy, or deletion questions, use the [Support guide](https://help.freqmapper.net/support/) or email [support@freqmapper.net](mailto:support@freqmapper.net).
-
-### Report a bug or request a feature
-
-[Search existing issues](https://github.com/Littleaton/FreqMapper-Feedback/issues) first, then [choose a report form](https://github.com/Littleaton/FreqMapper-Feedback/issues/new/choose).
-
-For a bug, include the steps you took, what you expected, what happened instead, exact app version/build, phone and OS or browser, relevant radio model/firmware, approximate time, and general region. Sanitized screenshots can help.
-
-For a feature, explain the mapping or radio problem you want to solve, who it affects, and any proposed approach.
-
-You can also open **Settings → Help & about → Report a bug / Request a feature** in the app. Choose **Public summary** when a sanitized description may be published, or **Private report** for private-only support. The [Support guide](https://help.freqmapper.net/support/) explains replies and support activity.
-
-**Direct GitHub issues and comments are public.** Never post enrollment codes, channel keys or QR codes, passwords, tokens, MQTT credentials, private messages, Bluetooth addresses, exact home/private locations, or unreviewed diagnostic files. Read [Privacy and reporting](PRIVACY_AND_REPORTING.md) before sharing attachments.
 
 ### Follow progress or help out
 
